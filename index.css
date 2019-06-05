@@ -1,0 +1,167 @@
+header {
+    display: flex;
+    flex-direction: row;
+    height: 24px;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.liste_liens {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100vw;
+    margin-left: 25vw;
+    margin-top: 14px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.image_logo {
+    height: 15px;
+    margin-top: 14px;
+}
+
+h1 {
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+}
+
+h2 {
+
+font-family: Helvetica LT Std;
+font-style: normal;
+font-weight: 300;
+font-size: 34px;
+text-align: center;
+letter-spacing: 0.09em;
+}
+
+#main-image {
+    background-image: url(./photo-1457317680121-ef12e98979e8.jpg);
+    height: 90vh;
+    width: 100vw;
+    opacity: 0.6;
+}
+
+.bloc_image {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 25px;
+}
+
+.bloc_texte {
+    margin-top: 34vh;
+}
+
+.button {
+    height: 35px;
+    width: 205px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+h4 {
+    font-family: Roboto;
+}
+
+.phone {
+    height: 145px;
+    border-radius: 50%;
+    width: 195px;
+    object-fit: cover;
+}
+
+#parts {
+    height: 70vh;
+    width: 70vw;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+h3 {
+    text-align: center;
+    margin: 0 auto;
+    font-family: Roboto;
+    font-weight: normal;
+}
+
+.parts_bloc1 {
+    width: 200px;
+}
+
+.parts_bloc2 {
+    
+}
+
+.parts_bloc3 {
+
+}
+
+.parts_blocs {
+    width: 60vw;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#phoneeco {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.bloc1 {
+    height: 47vh;
+    width: 47vw;
+    margin-top: 20vh;
+    background: #5579BB;
+
+}
+
+.bloc2 {
+    height: 43vh;
+    width: 45vw;
+    background: url(./phone2.jpg);
+}
+
+.phoneeco_texte {
+    margin-top: 30vh;
+    width: 34vw;
+}
+
+.phonecolo {
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 20px;
+}
+
+p {
+    font-family: Roboto;
+    font-style: lighter;
+    font-size: 17px;
+}
