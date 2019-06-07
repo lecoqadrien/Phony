@@ -139,7 +139,6 @@ h3 {
     height: 47vh;
     width: 47vw;
     margin-top: 20vh;
-    background: #5579BB;
 
 }
 
@@ -164,4 +163,74 @@ p {
     font-family: Roboto;
     font-style: lighter;
     font-size: 17px;
+    text-align: center;
+}
+
+#offres {
+    height: 85vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+#offres2 {
+    height: 85vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.coque {
+    height: 75vh;
+}
+
+.coque2 {
+    height: 75vh;
+    margin-left:45px;
+}
+
+.Hello {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 45px;
+    width: 100vw;
+}
+
+.Hello2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 45px;
+    margin-right: 145px;
+    width: 100vw;
+}
+
+.hello_typo {
+    margin-top: 145px;
+}
+
+.offres_typo {
+    display: flex;
+    flex-direction: column;
+    width: 345px;
+    height: 645px;
+    background: white;
+}
+
+.button_offres {
+    height: 45px;
+    width: 100px;
+    background: #5579BB;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+h5 {
+    text-align: center;
+    margin: 0 auto;
+    font-family: Roboto;
+    font-style: normal;
+    color: white;
 }
